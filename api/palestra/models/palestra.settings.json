@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "palestras",
+  "info": {
+    "name": "palestra"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "categorias": {
+      "via": "palestra",
+      "collection": "categoria"
+    }
+  }
+}

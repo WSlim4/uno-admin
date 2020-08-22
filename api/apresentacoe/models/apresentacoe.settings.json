@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apresentacoes",
+  "info": {
+    "name": "apresentacoe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "categorias": {
+      "via": "apresentacoe",
+      "collection": "categoria"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "name": "Categoria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "obras": {
+      "collection": "obra"
+    },
+    "projeto": {
+      "model": "projeto",
+      "via": "categorias"
+    },
+    "apresentacoe": {
+      "model": "apresentacoe",
+      "via": "categorias"
+    },
+    "palestra": {
+      "model": "palestra",
+      "via": "categorias"
+    }
+  }
+}

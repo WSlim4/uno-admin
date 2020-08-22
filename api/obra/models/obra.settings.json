@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "obras",
+  "info": {
+    "name": "Obra"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "professor": {
+      "model": "professor"
+    },
+    "aulas": {
+      "collection": "aula",
+      "via": "obra"
+    },
+    "projeto": {
+      "model": "projeto",
+      "via": "obras"
+    }
+  }
+}

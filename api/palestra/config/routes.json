@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/palestras",
+      "handler": "palestra.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/palestras/count",
+      "handler": "palestra.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/palestras/:id",
+      "handler": "palestra.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/palestras",
+      "handler": "palestra.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/palestras/:id",
+      "handler": "palestra.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/palestras/:id",
+      "handler": "palestra.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

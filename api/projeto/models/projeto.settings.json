@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projetos",
+  "info": {
+    "name": "Projeto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "obras": {
+      "via": "projeto",
+      "collection": "obra"
+    },
+    "categorias": {
+      "via": "projeto",
+      "collection": "categoria"
+    }
+  }
+}
