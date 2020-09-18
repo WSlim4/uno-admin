@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_embeds",
+  "info": {
+    "name": "Embed",
+    "icon": "dice-d6"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_blocks",
+  "info": {
+    "name": "Block",
+    "icon": "circle"
+  },
+  "options": {},
+  "attributes": {
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.slide"
+    },
+    "title": {
+      "type": "string"
+    },
+    "grid": {
+      "type": "boolean"
+    }
+  }
+}

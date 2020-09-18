@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "releases",
+  "info": {
+    "name": "Release"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
