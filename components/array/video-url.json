@@ -1,0 +1,16 @@
+{
+  "collectionName": "video_url",
+  "info": {
+    "name": "videos",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "video_title": {
+      "type": "string"
+    }
+  }
+}
