@@ -26,6 +26,13 @@
     "depoimento": {
       "type": "boolean",
       "default": false
+    },
+    "autor": {
+      "model": "autor",
+      "via": "galerias"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }
