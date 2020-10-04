@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_covers",
+  "info": {
+    "name": "Cover",
+    "icon": "copy"
+  },
+  "options": {},
+  "attributes": {
+    "midia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

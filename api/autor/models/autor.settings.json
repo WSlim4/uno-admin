@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autors",
+  "info": {
+    "name": "Autor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "galerias": {
+      "via": "autor",
+      "collection": "galeria"
+    }
+  }
+}

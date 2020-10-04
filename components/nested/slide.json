@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_nested_slides",
+  "info": {
+    "name": "Slide",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Caption": {
+      "type": "string"
+    }
+  }
+}

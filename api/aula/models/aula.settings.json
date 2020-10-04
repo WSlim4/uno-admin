@@ -16,8 +16,11 @@
       "type": "string"
     },
     "obra": {
-      "via": "aulas",
-      "model": "obra"
+      "model": "obra",
+      "via": "aulas"
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }
