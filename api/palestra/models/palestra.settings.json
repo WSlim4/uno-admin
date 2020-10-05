@@ -16,8 +16,14 @@
       "type": "string"
     },
     "categorias": {
-      "via": "palestra",
-      "collection": "categoria"
+      "collection": "categoria",
+      "via": "palestra"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }

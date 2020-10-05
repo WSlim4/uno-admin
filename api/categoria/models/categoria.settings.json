@@ -16,16 +16,16 @@
       "collection": "obra"
     },
     "projeto": {
-      "model": "projeto",
-      "via": "categorias"
+      "via": "categorias",
+      "model": "projeto"
     },
     "apresentacoe": {
-      "model": "apresentacoe",
-      "via": "categorias"
+      "via": "categorias",
+      "model": "apresentacoe"
     },
     "palestra": {
-      "model": "palestra",
-      "via": "categorias"
+      "via": "categorias",
+      "model": "palestra"
     }
   }
 }

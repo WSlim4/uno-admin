@@ -31,6 +31,9 @@
     },
     "call": {
       "type": "text"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

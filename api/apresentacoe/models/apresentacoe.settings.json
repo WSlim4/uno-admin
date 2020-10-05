@@ -19,8 +19,14 @@
       "type": "text"
     },
     "categorias": {
-      "via": "apresentacoe",
-      "collection": "categoria"
+      "collection": "categoria",
+      "via": "apresentacoe"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }

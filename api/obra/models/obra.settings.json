@@ -19,12 +19,18 @@
       "model": "professor"
     },
     "aulas": {
-      "via": "obra",
-      "collection": "aula"
+      "collection": "aula",
+      "via": "obra"
     },
     "projeto": {
       "model": "projeto",
       "via": "obras"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }

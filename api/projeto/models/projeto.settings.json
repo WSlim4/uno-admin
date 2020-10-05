@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
     "button_label": {
@@ -20,8 +20,11 @@
       "collection": "obra"
     },
     "categorias": {
-      "via": "projeto",
-      "collection": "categoria"
+      "collection": "categoria",
+      "via": "projeto"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

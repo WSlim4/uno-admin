@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    findOne: ctx => {
+        return strapi.query('eventos').findOne({slug: ctx.params.id});
+    },
+};

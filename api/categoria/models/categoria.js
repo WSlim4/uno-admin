@@ -5,4 +5,15 @@
  * to customize this model
  */
 
-module.exports = {};
+module.exports = {
+    lifecycles: {
+        beforeCreate: async (data) => {
+          if (data.title) {
+            data.slug = slugify(data.title);
+          }
+        },
+        beforeUpdate: async (params, data) => {
+          data.slug = slugify(data.title);
+        },
+      },
+};

@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    findOne: ctx => {
+        return strapi.query('obra').findOne({slug: ctx.params.id}, ['aulas', 'professor', 'projeto']);
+    },
+};
