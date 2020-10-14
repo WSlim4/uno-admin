@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/oficinas-de-regencia",
+      "handler": "oficinas-de-regencia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/oficinas-de-regencia",
+      "handler": "oficinas-de-regencia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/oficinas-de-regencia",
+      "handler": "oficinas-de-regencia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

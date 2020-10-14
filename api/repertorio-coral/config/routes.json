@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/repertorio-coral",
+      "handler": "repertorio-coral.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repertorio-coral",
+      "handler": "repertorio-coral.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repertorio-coral",
+      "handler": "repertorio-coral.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

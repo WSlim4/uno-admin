@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "repertorio_corals",
+  "info": {
+    "name": "Repertorio Coral"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "obras": {
+      "collection": "obra"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "button_label": {
+      "type": "string"
+    }
+  }
+}
