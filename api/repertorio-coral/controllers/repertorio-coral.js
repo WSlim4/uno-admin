@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    find: ctx => {
+        return strapi.query('repertorio-coral').find(ctx.query, ['obras', 'obras.professor', 'obras.aulas']);
+    },
+};
