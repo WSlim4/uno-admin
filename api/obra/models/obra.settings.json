@@ -16,7 +16,8 @@
       "type": "text"
     },
     "professor": {
-      "model": "professor"
+      "model": "professor",
+      "via": "obras"
     },
     "aulas": {
       "collection": "aula",

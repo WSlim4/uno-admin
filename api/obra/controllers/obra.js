@@ -7,6 +7,6 @@
 
 module.exports = {
     findOne: ctx => {
-        return strapi.query('obra').findOne({slug: ctx.params.id}, ['aulas', 'professor', 'projeto']);
+        return strapi.query('obra').findOne({slug: ctx.params.id}, ['aulas', 'professor', 'professor.obras','projeto']);
     },
 };

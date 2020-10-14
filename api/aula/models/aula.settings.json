@@ -24,6 +24,11 @@
     },
     "slug": {
       "type": "string"
+    },
+    "audios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.audios"
     }
   }
 }

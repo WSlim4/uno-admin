@@ -25,6 +25,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "obras": {
+      "via": "professor",
+      "collection": "obra"
     }
   }
 }
