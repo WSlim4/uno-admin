@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_array_partituras",
+  "info": {
+    "name": "partituras",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "partitura": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

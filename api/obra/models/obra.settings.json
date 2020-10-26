@@ -16,12 +16,12 @@
       "type": "text"
     },
     "professor": {
-      "model": "professor",
-      "via": "obras"
+      "via": "obras",
+      "model": "professor"
     },
     "aulas": {
-      "collection": "aula",
-      "via": "obra"
+      "via": "obra",
+      "collection": "aula"
     },
     "projeto": {
       "model": "projeto",
