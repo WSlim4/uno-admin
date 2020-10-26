@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedule_events",
+  "info": {
+    "name": "scheduleEvent"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "string"
+    },
+    "schedule": {
+      "via": "schedule_events",
+      "model": "schedule"
+    }
+  }
+}
