@@ -12,7 +12,7 @@
     "name": {
       "type": "string"
     },
-    "bio": {
+    "mini_bio": {
       "type": "text"
     },
     "image": {
@@ -27,8 +27,11 @@
       "required": false
     },
     "obras": {
-      "via": "professor",
-      "collection": "obra"
+      "collection": "obra",
+      "via": "professor"
+    },
+    "bio": {
+      "type": "richtext"
     }
   }
 }

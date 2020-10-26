@@ -16,8 +16,8 @@
       "type": "string"
     },
     "obra": {
-      "via": "aulas",
-      "model": "obra"
+      "model": "obra",
+      "via": "aulas"
     },
     "date": {
       "type": "datetime"
@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": true,
       "component": "array.audios"
+    },
+    "partituras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.partituras"
     }
   }
 }
